@@ -1,0 +1,23 @@
+{
+  "name": "upload-photo-to-cloud",
+  "version": "1.0.0",
+  "description": "upload Images to Cloud ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Naveen S Belandur",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.0.3",
+    "cors": "^2.8.5",
+    "env": "^0.0.2",
+    "express": "^4.19.1",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^3.1.0"
+  }
+}
